@@ -25,12 +25,15 @@
             <div class="flex-wrap container h-full mx-auto flex justify-between items-center">
                 <!-- Logo Here -->
                 <a href="#" class="">
-                    <img class="rabiloo-logo" src="assets/img/LOGO.png" height="" alt="Rabiloo Logo">
+                    <img class="rabiloo-logo" src="assets/img/LOGO.png" alt="Rabiloo Logo">
                 </a>
                 <!-- Menu links here -->
-                <ul id="menu" class="hidden fixed right-0 px-10 py-16 lg:bg-white z-50
-                     lg:flex lg:p-0 bg-transparent lg:flex-row ">
-    
+                <ul id="menu" class="hidden fixed top-0 right-0 px-10 py-16 bg-gray-800 z-50
+                    lg:relative lg:flex lg:p-0 lg:bg-transparent lg:flex-row lg:space-x-12">
+                    <li class="md:hidden z-90 fixed top-4 right-6">
+                        <a href="javascript:void(0)" class="text-right text-white text-4xl"
+                            onclick="toggleMenu()">&times;</a>
+                    </li>
                     <li>
                         <a class="menu-item-selected" href="https://www.example.com">Industries we
                             service</a>
